@@ -1,0 +1,1398 @@
+# NUDGE
+## Complete Brand-New Application Build
+### Your Gentle Everyday Assistant
+
+You are building an entirely NEW application called **Nudge**.
+
+This is a fresh project, starting from an empty project with a completely new implementation.
+
+IMPORTANT: Do NOT import, continue, reuse, copy, or modify the codebase of my previous Nudge application. Do not simply recreate its existing interface with a few cosmetic changes.
+
+I want you to build Nudge from the ground up using this specification as the complete product blueprint.
+
+The previous version of Nudge is useful only as a reference for the features and functionality I want. The new application should have its own thoughtfully designed architecture, component system, navigation structure, visual identity, and implementation.
+
+I want this to feel like a completely new, professionally designed application.
+
+Do not give me a prototype, static mockup, or collection of nonfunctional screens. Build a genuinely functional application.
+
+---
+
+# 1. PRODUCT IDENTITY
+
+**Application name:** Nudge
+
+**Product descriptor:** Your Gentle Everyday Assistant
+
+**Core philosophy:** A little push toward a better day.
+
+Nudge is an intelligent everyday life assistant designed to help people organize their lives, establish routines, manage responsibilities, practice self-care, and make everyday life feel more manageable.
+
+It combines the functionality of:
+
+- A daily planner.
+- A routine and habit organizer.
+- A personal checklist manager.
+- A calendar.
+- A private journal.
+- A self-care assistant.
+- A personal organization system.
+- An AI-powered routine and planning assistant.
+
+However, Nudge should NOT feel like a traditional productivity application.
+
+Its defining philosophy is that productivity should never come at the expense of someone's well-being.
+
+Nudge should be especially approachable for people who struggle with motivation, depression, low energy, anxiety, executive dysfunction, or feeling overwhelmed by everyday responsibilities.
+
+It should encourage progress without creating guilt.
+
+The app should be useful for someone who wants to completely organize their life, but equally useful for someone who simply wants to get out of bed, brush their teeth, and accomplish one small thing.
+
+**Nudge should make everyday life feel a little lighter.**
+
+---
+
+# 2. COMPLETE DESIGN DIRECTION
+
+This is one of the most important parts of the project.
+
+I want a completely new visual identity.
+
+The design should be inspired by modern Apple software, sophisticated glassmorphism, and subtle modern skeuomorphism.
+
+Think:
+
+- Apple-inspired translucent interfaces.
+- Frosted glass.
+- Soft dimensional surfaces.
+- Beautifully layered components.
+- Subtle reflections.
+- Tactile buttons.
+- Refined shadows.
+- Elegant typography.
+- Smooth animations.
+- Minimalist luxury design.
+- Beautifully composed layouts.
+
+The application should feel like a premium consumer application rather than a generic AI-generated dashboard.
+
+## Design philosophy
+
+**Minimal interface. Comprehensive functionality.**
+
+I want every feature to exist and be accessible, but I do NOT want every feature displayed simultaneously.
+
+Use progressive disclosure.
+
+Show the most relevant information first, with additional functionality available through navigation, expandable sections, contextual menus, and secondary screens.
+
+Do not fill every screen with cards.
+
+Do not make every button prominent.
+
+Do not make every feature compete for attention.
+
+The user should be able to open Nudge and immediately understand what matters without feeling overwhelmed.
+
+## Color palette
+
+Use a sophisticated, warm, natural palette.
+
+Suggested colors:
+
+- Warm ivory: #F7F5F0
+- Porcelain white: #FFFFFF
+- Champagne: #F1E8D8
+- Soft taupe: #DCD6CC
+- Muted sage: #A8B69B
+- Botanical green: #788D70
+- Warm charcoal: #302F2D
+- Muted gray: #92908B
+
+Use colors sparingly and consistently.
+
+Do not make every component orange.
+
+Use accent colors for important actions, selected navigation, progress, and contextual categories.
+
+## Glassmorphism
+
+Implement a refined glass design system:
+
+- Translucent navigation surfaces.
+- Frosted-glass panels.
+- Subtle background blur.
+- Fine borders.
+- Delicate highlights.
+- Layered elevation.
+- Soft realistic shadows.
+- Beautifully rounded controls.
+- Slightly dimensional interactive surfaces.
+
+Maintain excellent text contrast.
+
+Do not overuse transparency or blur.
+
+The interface must remain readable and functional.
+
+## Typography
+
+Use modern, clean, sophisticated typography.
+
+Use clear hierarchy, restrained font weights, comfortable spacing, and excellent mobile readability.
+
+Avoid excessively large headings.
+
+## Dark mode
+
+Implement a genuinely polished dark theme.
+
+Use deep charcoal backgrounds, translucent dark surfaces, subtle highlights, and carefully selected accent colors.
+
+Light and dark mode must both feel intentionally designed.
+
+## Animation
+
+Use tasteful animations for:
+
+- Navigation transitions.
+- Opening and closing cards.
+- Completing activities.
+- Opening modals.
+- Expanding sections.
+- Changing tabs.
+- Splash screen.
+- Loading states.
+
+Animations should be smooth, subtle, and quick.
+
+Respect reduced-motion accessibility preferences.
+
+---
+
+# 3. APPLICATION STRUCTURE AND NAVIGATION
+
+Create a new, intentional navigation system.
+
+The main navigation should contain:
+
+1. Today
+2. Organize
+3. Calendar
+4. Journal
+5. Progress
+
+Nudge AI should have its own easily accessible entry point.
+
+Settings should be accessible from a secondary location.
+
+The Organize section should contain:
+
+- Routines.
+- Checklists.
+- Backpacks.
+- Templates.
+- Personal goals.
+
+Do not put every feature in the primary navigation.
+
+Use contextual menus, bottom sheets, and secondary screens for additional functionality.
+
+The navigation must be consistent and intuitive.
+
+On mobile, use a beautifully designed bottom navigation bar with appropriate safe-area spacing.
+
+On desktop, use an elegant responsive navigation layout.
+
+---
+
+# 4. TODAY — THE HOME SCREEN
+
+The Today screen is the heart of Nudge.
+
+It should feel like opening a personal assistant.
+
+## Greeting
+
+Display a dynamic greeting based on the current local time.
+
+Examples:
+
+- Good morning, Friend.
+- Good afternoon, Friend.
+- Good evening, Friend.
+
+Allow the user to enter their first name in Settings.
+
+Use the name in greetings when provided.
+
+Below the greeting, show a short, calming message.
+
+Examples:
+
+"Let's take today one step at a time."
+
+"Here is your gentle view of today."
+
+"There's no need to do everything at once."
+
+## Daily overview
+
+Display a compact overview containing:
+
+- Positive actions completed today.
+- Today's completion percentage, where appropriate.
+- Upcoming scheduled activity.
+- Current selected mode.
+- A rotating motivational tip.
+
+Do not overcrowd this area.
+
+## Motivational tips
+
+Create a substantial built-in library of rotating motivational tips.
+
+Examples:
+
+- You don't need motivation to begin. Sometimes beginning creates motivation.
+- Make the first step almost ridiculously easy.
+- You don't have to finish everything you start.
+- Picking up one thing is still cleaning.
+- Eating something simple is still taking care of yourself.
+- You are allowed to make today's version of a task smaller.
+- Starting for 30 seconds is still starting.
+- Resting is different from giving up.
+- You don't have to catch up on everything you missed.
+- Focus on the next action, not the entire process.
+- A little progress is still progress.
+- You can stop after the first step if that's all you have today.
+
+Include many more tips across self-care, organization, motivation, rest, and getting started.
+
+Rotate them naturally.
+
+Avoid repeating the same few tips constantly.
+
+## Home quick actions
+
+Provide compact access to:
+
+- Start My Day.
+- 10-Second Start.
+- Brain Dump.
+- Add Task.
+- Calendar.
+- Nudge AI.
+
+Keep the interface visually restrained.
+
+## Today's content
+
+Display today's:
+
+- Routines.
+- Checklists.
+- Backpacks, where relevant.
+- Scheduled tasks.
+- Reminders.
+
+Allow sections to expand and collapse.
+
+Users should be able to complete individual activities without opening a separate screen.
+
+The Home screen must not become an endless wall of cards.
+
+---
+
+# 5. ROUTINES
+
+Build a complete routine management system.
+
+Users should be able to:
+
+- Create routines.
+- Name routines.
+- Select emojis.
+- Select accent colors.
+- Add descriptions.
+- Add individual activities.
+- Edit activities.
+- Delete activities.
+- Reorder activities.
+- Assign durations.
+- Duplicate routines.
+- Archive routines.
+- Restore archived routines.
+- Create multiple versions of a routine.
+- View completion history.
+
+Examples:
+
+- Morning Routine.
+- Evening Wind Down.
+- Work Preparation.
+- Cleaning Routine.
+- Skincare Routine.
+- Study Routine.
+- Gym Routine.
+
+## Routine versions
+
+Allow multiple versions of a routine:
+
+- Full Version.
+- Normal Version.
+- Quick Version.
+- Low Energy Version.
+- Bare Minimum Version.
+
+Each version should have its own activities and estimated duration.
+
+## Guided routine mode
+
+Allow users to start a routine in guided mode.
+
+Display one activity at a time with:
+
+- Activity name.
+- Description, if provided.
+- Duration.
+- Completion control.
+- Next activity.
+- Previous activity.
+- Pause and exit controls.
+
+Include a clear overall routine progress indicator.
+
+## Start My Day
+
+Provide a dedicated Start My Day experience.
+
+It should guide users through their selected morning routine or daily essentials.
+
+## Checked Off
+
+Provide access to completed activities without losing the ability to view the original routine.
+
+Support undoing accidental completion.
+
+## Routine scheduling
+
+Allow routines to be scheduled for particular days and times.
+
+Support recurring schedules.
+
+---
+
+# 6. CHECKLISTS
+
+Create a flexible checklist management system.
+
+Users should be able to:
+
+- Create checklists.
+- Name them.
+- Choose emojis.
+- Choose colors.
+- Add items.
+- Edit items.
+- Delete items.
+- Reorder items.
+- Mark individual items complete.
+- Reset checklists.
+- Duplicate checklists.
+- Archive checklists.
+- View completion history.
+
+Include sensible optional templates.
+
+Examples:
+
+- Daily Self-Care.
+- Cleaning.
+- Grocery Shopping.
+- Work Preparation.
+- School Preparation.
+- Travel Preparation.
+
+Include a Checked Off view.
+
+Checklist interactions should be simple and satisfying.
+
+---
+
+# 7. BACKPACKS AND PACKING LISTS
+
+Create a reusable backpack and packing-list system.
+
+Users can create lists for:
+
+- Work.
+- School.
+- Gym.
+- Travel.
+- Overnight trips.
+- Everyday essentials.
+
+Support:
+
+- Custom items.
+- Item quantities.
+- Emojis.
+- Colors.
+- Required items.
+- Missing-item indicators.
+- Packing completion.
+- Last-packed information.
+- Reusable templates.
+- Duplication.
+- Archiving.
+
+Allow backpacks to connect to relevant routines.
+
+For example, a Work Preparation routine can link to a Work Backpack.
+
+---
+
+# 8. CALENDAR AND SCHEDULING
+
+Build a fully functional calendar.
+
+Include:
+
+- Month view.
+- Week view.
+- Day view.
+
+All three views must work.
+
+Users should be able to:
+
+- Navigate between dates.
+- Jump to today.
+- Schedule tasks.
+- Schedule routines.
+- Schedule events.
+- Edit events.
+- Delete events.
+- Change event times.
+- Assign colors.
+- Add descriptions.
+- Set reminders.
+- Create recurring events.
+
+## Advanced recurrence
+
+Support:
+
+- Every day.
+- Every week.
+- Every selected weekday.
+- Every two weeks.
+- Every specified number of weeks.
+- Specific dates of each month.
+- Every month.
+- First weekday of a month.
+- Last weekday of a month.
+- Custom start and end dates.
+- Custom times.
+
+Allow editing an individual occurrence without changing the entire recurring series.
+
+Calendar data must use accurate local dates and times.
+
+Do not invent or display fake scheduled information.
+
+---
+
+# 9. JOURNAL
+
+Build a private daily journal.
+
+Users should be able to:
+
+- Create journal entries.
+- Edit entries.
+- Delete entries.
+- View past entries.
+- Search entries.
+- Link entries to calendar dates.
+- Select a mood.
+- Add optional reflection prompts.
+
+Include a mood selector using expressive but tasteful emoji.
+
+Examples:
+
+- Happy.
+- Calm.
+- Neutral.
+- Tired.
+- Sad.
+- Anxious.
+- Overwhelmed.
+- Grateful.
+
+Support optional morning and evening journal reminders.
+
+Journal entries must remain private and locally stored.
+
+Do not automatically send journal content to AI.
+
+AI analysis of journal entries must never happen without explicit user consent.
+
+---
+
+# 10. PROGRESS — POSITIVE ACTIONS
+
+Do NOT implement a traditional streak system.
+
+Nudge should use a concept called:
+
+**Positive Actions**
+
+The philosophy:
+
+"What did you do for yourself?"
+
+Not:
+
+"How productive were you?"
+
+Count individual completed actions using actual completion data.
+
+Examples:
+
+- Completing a routine activity.
+- Completing a checklist item.
+- Completing a scheduled task.
+- Completing a backpack item.
+
+If a user completes three activities in a seven-step routine, count three positive actions.
+
+Do not require an entire routine to be finished.
+
+Show:
+
+- Positive actions today.
+- Positive actions this week.
+- Positive actions this month.
+- Category breakdowns.
+- Weekly activity visualization.
+- Historical summaries.
+
+Do not count incomplete activities.
+
+Do not double-count completions.
+
+Do not count future actions.
+
+Do not fabricate historical activity.
+
+Never show broken streaks, missed-day penalties, or guilt-based metrics.
+
+Example messaging:
+
+"You took 23 positive actions this week."
+
+"Three small things you did for yourself today."
+
+"Every small action counts."
+
+On quiet weeks:
+
+"This week was quieter. That's okay. You can start with one small thing today."
+
+A day with zero activity must not look like failure.
+
+---
+
+# 11. DEPRESSION-FRIENDLY FEATURES
+
+This is a defining part of Nudge.
+
+The application should make everyday responsibilities feel approachable for people experiencing depression, low motivation, anxiety, executive dysfunction, or burnout.
+
+Do not position Nudge as a medical or therapeutic product.
+
+## Low Energy Mode
+
+Allow users to select:
+
+- High Energy.
+- Normal Energy.
+- Low Energy.
+- Very Low Energy.
+
+Use this to suggest appropriately sized routines and activities.
+
+## Bare Minimum Day
+
+Create a dedicated mode for difficult days.
+
+The user can choose a small list of essential self-care actions.
+
+Examples:
+
+- Drink something.
+- Eat something.
+- Brush teeth.
+- Change clothes.
+- Wash face.
+- Get comfortable.
+- Complete one important task.
+
+Allow the user to customize everything.
+
+## Just One Thing
+
+Provide a feature called:
+
+**Just One Thing**
+
+Present one tiny, manageable action.
+
+Examples:
+
+Instead of "Clean your room":
+
+"Pick up one piece of clothing."
+
+Instead of "Eat breakfast":
+
+"Take your first bite."
+
+Instead of "Take a shower":
+
+"Walk to the bathroom."
+
+Afterward, offer:
+
+- I did it.
+- Give me another.
+- I'm done for now.
+
+## Nudge Me
+
+Create a feature called:
+
+**Nudge Me**
+
+Ask the user what kind of support they need.
+
+Examples:
+
+- I have no energy.
+- My brain feels overwhelmed.
+- I'm having a difficult day.
+- I need to get something done.
+- I need a tiny starting point.
+- I need to organize my thoughts.
+
+Provide one practical, appropriately sized suggestion.
+
+Do not overwhelm the user with a huge list.
+
+## Make This Easier
+
+Allow any task to be broken into smaller steps.
+
+Example:
+
+"Clean my bedroom."
+
+1. Stand up.
+2. Pick up one item.
+3. Put it away.
+4. Pick up one piece of trash.
+
+Let the user choose whether to continue.
+
+## Get Me Out of Bed
+
+Provide an optional short routine:
+
+1. Sit up.
+2. Put your feet on the floor.
+3. Drink water.
+4. Open the curtains.
+5. Stand up.
+
+Allow users to customize the steps.
+
+## Hygiene Support
+
+Include optional simplified hygiene routines.
+
+For example, users can choose between:
+
+- Minimum hygiene routine.
+- Full hygiene routine.
+
+## Eating Support
+
+Provide optional gentle eating reminders and easy meal suggestions.
+
+Do not include calorie tracking or dieting pressure.
+
+The purpose is simply to make eating something feel more manageable.
+
+## Recovery-friendly behavior
+
+If a user returns after several inactive days, say:
+
+"Welcome back. You don't have to catch up. Let's start with today."
+
+Never shame users for inactivity.
+
+Never punish them for missed routines.
+
+---
+
+# 12. NUDGE AI — THE INTELLIGENT ASSISTANT
+
+Nudge AI should be one of the defining features of the application.
+
+It should be integrated naturally into the product rather than appearing as an unrelated chatbot.
+
+Create an elegant AI interface.
+
+## AI routine generation
+
+Users can describe a routine in natural language.
+
+Examples:
+
+"Make me a morning routine that helps me wake up earlier."
+
+"Create a nighttime routine."
+
+"Make a simple routine for getting ready before work."
+
+"Build a cleaning routine for my apartment."
+
+"Create a gym routine for someone who struggles with consistency."
+
+Generate:
+
+- Routine name.
+- Description.
+- Individual activities.
+- Activity order.
+- Suggested durations.
+- Total estimated duration.
+- Optional routine versions.
+
+Allow users to review, edit, and approve the result before saving.
+
+## AI checklist generation
+
+Examples:
+
+"Create a checklist for a weekend trip."
+
+"Make me a weekly cleaning checklist."
+
+"Create a work preparation checklist."
+
+Generate structured, editable checklist items.
+
+## AI backpack generation
+
+Example:
+
+"Make a packing list for an eight-hour work shift."
+
+Generate a sensible, customizable packing list.
+
+## AI task breakdown
+
+Allow users to select:
+
+"Make This Easier."
+
+Break large tasks into small, manageable steps.
+
+## AI Brain Dump
+
+Allow users to write unstructured thoughts.
+
+Identify possible:
+
+- Tasks.
+- Reminders.
+- Appointments.
+- Goals.
+- Ideas.
+- Routines.
+- Shopping items.
+
+Present suggestions for approval.
+
+Never automatically create tasks or calendar events without confirmation.
+
+## AI daily planning
+
+Allow users to ask:
+
+"Help me plan tomorrow."
+
+Use existing calendar events and user-selected preferences to propose a realistic schedule.
+
+Include breaks and appropriate amounts of free time.
+
+Require approval before changing the calendar.
+
+## AI conversational assistant
+
+Allow users to ask questions about organization, routines, planning, and everyday life.
+
+Examples:
+
+"Help me organize my mornings."
+
+"I have too much to do today."
+
+"Can you make my routine shorter?"
+
+"What should I prioritize?"
+
+"Help me build a realistic weekly schedule."
+
+The AI should be warm, practical, concise, and nonjudgmental.
+
+## AI technical requirements
+
+Use Gemini or another properly configured AI integration.
+
+Never expose API keys in client-side source code.
+
+Handle credentials securely.
+
+AI functionality must be optional.
+
+The rest of Nudge must remain usable without AI.
+
+Clearly disclose when information will be sent to an external AI provider.
+
+Require consent before transmitting personal information.
+
+Do not transmit journal entries or sensitive personal information automatically.
+
+Provide useful fallback behavior if AI is unavailable or unconfigured.
+
+Do not create fake AI responses or pretend an integration works when it does not.
+
+---
+
+# 13. BRAIN DUMP
+
+Create a dedicated Brain Dump feature.
+
+Users should be able to quickly write down anything on their mind.
+
+Support:
+
+- Quick text entry.
+- Saving thoughts.
+- Editing.
+- Deleting.
+- Searching.
+- Organizing entries.
+- Converting entries into tasks.
+- Converting entries into reminders.
+- Converting entries into checklist items.
+- Converting entries into routine activities.
+- Sending entries to the calendar.
+
+Require confirmation before converting or scheduling information.
+
+Make this experience extremely fast and easy to use.
+
+---
+
+# 14. TIMER AND 10-SECOND START
+
+Create a configurable start countdown.
+
+The default should be:
+
+**10 seconds.**
+
+Users must be able to change the duration in Settings.
+
+Changing the setting must actually change the countdown behavior.
+
+Include:
+
+- Configurable duration.
+- Sound settings.
+- Vibration where supported.
+- Automatic start options.
+- Start and cancel controls.
+- Clear countdown display.
+
+Include a feature called:
+
+**Just Start**
+
+The purpose is to help users overcome the initial resistance of beginning a task.
+
+Make the experience simple and encouraging.
+
+---
+
+# 15. FOCUS MODE
+
+Create an optional Focus Mode.
+
+Allow users to temporarily simplify the interface.
+
+Possible features:
+
+- Hide secondary navigation.
+- Reduce distractions.
+- Display one selected task.
+- Show a countdown.
+- Provide a calm background.
+- Temporarily reduce optional notifications.
+
+Make it easy to exit.
+
+---
+
+# 16. REMINDERS AND NOTIFICATIONS
+
+Build a notification system for:
+
+- Scheduled routines.
+- Checklist reminders.
+- Backpack preparation.
+- Scheduled tasks.
+- Countdown events.
+- Optional self-care reminders.
+- Journal reminders.
+- Daily summaries.
+- Weekly summaries.
+
+Support:
+
+- Snooze.
+- Skip.
+- Reschedule.
+- Complete.
+- Quiet hours.
+- User-configurable notification categories.
+
+Notifications must be optional and respectful.
+
+Never bombard the user.
+
+Where browser or platform restrictions prevent a notification feature from working, explain the limitation rather than pretending it is functional.
+
+---
+
+# 17. THEMES AND PERSONALIZATION
+
+Allow users to personalize Nudge.
+
+Include:
+
+- Light mode.
+- Dark mode.
+- Custom accent colors.
+- Background appearance.
+- Optional visual themes.
+- Font preferences where supported.
+- Completion animations.
+- Sound preferences.
+- Focus Mode appearance.
+
+Provide a few thoughtfully designed preset themes.
+
+Examples:
+
+- Botanical.
+- Minimal.
+- Warm Neutral.
+- Pastel.
+- Midnight.
+- Retro.
+- Y2K.
+
+Keep the default appearance sophisticated and understated.
+
+---
+
+# 18. QR SHARING AND IMPORTING
+
+Allow users to share their routines, checklists, and backpacks using QR codes.
+
+Support:
+
+- QR code generation.
+- QR scanning.
+- Preview before importing.
+- Import confirmation.
+- Metadata preservation.
+- Item and activity preservation.
+- Colors and emojis.
+- Routine versions.
+
+The import process must not overwrite existing data.
+
+---
+
+# 19. TEMPLATE LIBRARY
+
+Provide a library of optional templates.
+
+Categories can include:
+
+- Morning.
+- Evening.
+- Self-care.
+- Cleaning.
+- Work.
+- School.
+- Fitness.
+- Travel.
+- Organization.
+- Sleep.
+- Wellness.
+
+Allow users to preview, customize, and save templates.
+
+Do not automatically insert templates into a user's schedule.
+
+---
+
+# 20. PERSONAL GOALS AND WEEKLY RESET
+
+## Personal Goals
+
+Allow users to create goals and connect them to existing routines and tasks.
+
+Examples:
+
+- Improve my sleep schedule.
+- Exercise more.
+- Keep my room organized.
+- Read regularly.
+- Establish a morning routine.
+
+Goals should be flexible and nonjudgmental.
+
+## Weekly Reset
+
+Create an optional weekly planning experience.
+
+Users can:
+
+- Review positive actions.
+- Reflect on the week.
+- Organize upcoming tasks.
+- Review routines.
+- Prepare backpacks.
+- Set intentions for the coming week.
+
+Keep it concise and optional.
+
+---
+
+# 21. SPLASH SCREEN AND FIRST-TIME TUTORIAL
+
+Create a beautiful animated splash screen.
+
+Every time the application opens, display a short, tasteful branded splash experience.
+
+It should feature the Nudge identity and a subtle animation.
+
+Do not make it excessively long.
+
+## First-time tutorial
+
+Create a complete interactive tutorial for new users.
+
+The tutorial should introduce:
+
+1. What Nudge is.
+2. The Today screen.
+3. Creating routines.
+4. Creating checklists.
+5. Using backpacks.
+6. Scheduling in the calendar.
+7. Using the journal.
+8. Understanding Positive Actions.
+9. Using Nudge AI.
+10. Using low-energy and depression-friendly features.
+11. Personalizing Settings.
+12. Privacy and local data storage.
+
+Allow the user to skip the tutorial.
+
+Persist a dedicated tutorial completion state.
+
+The tutorial should appear whenever the user has not completed or skipped it.
+
+Once completed or skipped, it should not automatically appear again.
+
+Provide an option to replay it in Settings.
+
+Do not let tutorial state depend on whether the user has previously opened the application.
+
+---
+
+# 22. SEARCH AND QUICK CAPTURE
+
+Implement a global search.
+
+Search should locate:
+
+- Routines.
+- Activities.
+- Checklists.
+- Checklist items.
+- Backpacks.
+- Tasks.
+- Calendar events.
+- Journal entries.
+
+Also provide a fast Quick Capture action for creating a task, reminder, or Brain Dump entry.
+
+Keep both features unobtrusive.
+
+---
+
+# 23. LOCAL-FIRST PRIVACY AND OPEN SOURCE
+
+Privacy is a fundamental part of Nudge.
+
+The default application architecture must be local-first.
+
+Nudge should not require an account.
+
+Do not create:
+
+- Mandatory login.
+- User registration.
+- Central user database.
+- Remote personal-data storage.
+- Mandatory cloud synchronization.
+- Advertising trackers.
+- Behavioral analytics.
+- Hidden usage tracking.
+
+Store user information locally on their device or browser.
+
+This includes:
+
+- Routines.
+- Activities.
+- Checklists.
+- Backpacks.
+- Tasks.
+- Calendar data.
+- Journal entries.
+- Preferences.
+- Completion history.
+- Tutorial state.
+
+Provide data export and import functionality.
+
+Allow users to manually back up their information.
+
+Allow users to clear their local data.
+
+Make privacy understandable to users.
+
+Nudge is intended to be an open-source application.
+
+Do not claim that external AI processing is local. Explain clearly when optional AI features transmit information to an external provider.
+
+The application must remain fully useful without AI.
+
+---
+
+# 24. TECHNICAL ARCHITECTURE
+
+Build the project from scratch.
+
+First establish a clean, maintainable architecture.
+
+Use reusable components and a consistent design system.
+
+Separate:
+
+- UI components.
+- Navigation.
+- Application state.
+- Data models.
+- Local persistence.
+- Business logic.
+- AI integrations.
+- Notification services.
+- Calendar logic.
+
+Use reliable local persistence rather than temporary in-memory data.
+
+Implement safe data migrations if the application schema changes.
+
+Make sure dates and time zones are handled correctly.
+
+Avoid duplicated state.
+
+Do not create decorative controls that do nothing.
+
+Do not use fake data to populate the application.
+
+Do not create placeholder AI interactions.
+
+Do not claim a feature works unless it actually works.
+
+If an external integration is required, identify the dependency and implement an appropriate fallback.
+
+The application should be architected with future Android and iOS packaging in mind.
+
+Use responsive web technologies appropriate for Google AI Studio.
+
+---
+
+# 25. MOBILE-FIRST DESIGN
+
+Mobile is a primary platform, not an afterthought.
+
+Design the application for phones first.
+
+Requirements:
+
+- Proper safe-area spacing.
+- Comfortable touch targets.
+- Responsive navigation.
+- No horizontal overflow.
+- No overlapping content.
+- No tiny text.
+- No crowded cards.
+- Natural scrolling.
+- Elegant bottom sheets.
+- Appropriate mobile menus.
+- One-handed usability.
+- Smooth transitions.
+
+Desktop should remain fully usable and visually polished.
+
+Do not simply shrink the desktop interface to fit mobile.
+
+---
+
+# 26. IMPLEMENTATION AND TESTING
+
+Build the application in a structured manner.
+
+Do not attempt to create a visually impressive but nonfunctional interface.
+
+The following must work:
+
+- Navigation.
+- Local data persistence.
+- Routine creation and editing.
+- Routine completion.
+- Checklist creation and completion.
+- Backpack creation and completion.
+- Calendar navigation.
+- Month, week, and day views.
+- Scheduling.
+- Journal creation and editing.
+- Positive Actions calculations.
+- Timer settings.
+- Countdown functionality.
+- Tutorial completion and skipping.
+- Splash screen.
+- Theme switching.
+- Data export and import.
+- QR generation and scanning where supported.
+- AI features when properly configured.
+
+Verify the actual behavior of every interactive element.
+
+Ensure empty states, error states, and loading states are properly designed.
+
+Test mobile and desktop layouts.
+
+Do not sacrifice working functionality for visual effects.
+
+---
+
+# 27. THE FINAL DESIGN STANDARD
+
+The finished application should feel like a polished, premium, thoughtfully engineered consumer product.
+
+It should not look like:
+
+- A generic task manager.
+- A spreadsheet.
+- An administrative dashboard.
+- A collection of oversized cards.
+- A generic AI-generated website.
+- A crowded productivity application.
+
+It should feel like a beautiful personal assistant.
+
+The Home screen should be calm.
+
+The navigation should be intuitive.
+
+The routines should be easy to manage.
+
+The calendar should be genuinely useful.
+
+The journal should feel private.
+
+The AI should feel integrated.
+
+The depression-friendly features should feel thoughtful and human.
+
+The design should have depth without clutter.
+
+The functionality should be comprehensive without being constantly visible.
+
+---
+
+# FINAL INSTRUCTION — BUILD A COMPLETELY NEW NUDGE
+
+This is a new application project.
+
+Do not continue the previous Nudge codebase.
+
+Do not simply reuse its old design.
+
+Do not reproduce its old layout.
+
+Do not inherit its crowded dashboard structure.
+
+Start with a clean implementation and build the application described in this specification.
+
+The old Nudge is only a reference for the product concept and desired functionality.
+
+I want a completely new, beautifully designed, functional application.
+
+Do not stop after producing a mockup or landing page.
+
+Build the actual application with real navigation, working features, reliable local persistence, and a cohesive design system.
+
+Where implementation complexity is significant, build in a structured sequence while preserving the complete product architecture and feature plan.
+
+Do not silently omit major features.
+
+If a capability cannot be implemented in the current environment, clearly identify the limitation rather than substituting a fake implementation.
+
+**The product vision:**
+
+Nudge is your gentle everyday assistant.
+
+It helps you organize your life, take care of yourself, and make progress at your own pace.
+
+It should feel beautiful to open, effortless to use, and supportive to return to.
+
+**A little push toward a better day.**

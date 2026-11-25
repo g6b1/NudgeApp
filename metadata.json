@@ -1,0 +1,6 @@
+{
+  "name": "Nudge",
+  "description": "Your Gentle Everyday Assistant — A little push toward a better day.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
